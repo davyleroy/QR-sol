@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Path for sharing files from app's internal storage -->
+    <files-path name="files" path="." />
+    
+    <!-- Path for sharing cached files -->
+    <cache-path name="cache" path="." />
+    
+    <!-- Path for sharing files from external storage -->
+    <external-files-path name="external_files" path="." />
+    
+    <!-- Path for sharing cached files from external storage -->
+    <external-cache-path name="external_cache" path="." />
+    
+    <!-- Path for sharing QR code images -->
+    <files-path name="qr_images" path="qr_codes/" />
+</paths>
